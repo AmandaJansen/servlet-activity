@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.util.ArrayList;
-
+@WebServlet(name = "Eletros", urlPatterns = {"/eletronico"})
 public class MostrarEletronicos extends HttpServlet {
 
     @Override
